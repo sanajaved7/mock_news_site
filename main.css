@@ -141,7 +141,7 @@ main {
  */
 
 .hero {
-  width: 100%
+  width: 100%;
   position: relative;
   background-image: url("./images/dog.jpg");
   background-size: cover;
@@ -198,7 +198,6 @@ main {
   text-decoration: none;
   color: #666;
   padding: 1.5em inherit;
-
 }
 
 .top-news__item a:hover,
@@ -215,7 +214,6 @@ main {
 
 .scores {
   padding-top: 1em;
-  width: 100%;
 }
 
 .scores__table {
@@ -263,7 +261,6 @@ main {
 
 .weather {
   padding: 1em;
-  width: 100%;
 }
 
 .weather__location {
@@ -312,7 +309,7 @@ main {
 
 /*
  *
- * Weather
+ * Recent News
  *
  */
 
@@ -339,7 +336,7 @@ main {
 .snippet__title a {
   text-decoration: none;
   color: #666;
-  padding: 1.5em;
+  padding: 1.5em inherit;
 }
 
 .snippet__title a:hover,
